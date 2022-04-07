@@ -1,0 +1,67 @@
+.bg {
+  background-image: url("/assets/img/07 edit.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main {
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.project {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
+}
+.title {
+  text-align: center;
+  font-size: 85px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: white;
+  margin: 20px;
+}
+.hello {
+  text-align: center;
+  font-size: 25px;
+  width: 100vh;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-weight: inherit;
+  color: #747474;
+  margin-top: 202px;
+}
+.contact {
+  width: max-content;
+  margin: 0 auto;
+  margin-top: 175px;
+  font-family: sans-serif;
+}
+.contact ul {
+  display: flex;
+}
+.contact ul li {
+  margin: 0 14px;
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: #995f08;
+}
+.media {
+  position: absolute;
+  padding: 3px 0px;
+  font-family: sans-serif;
+}
+.media ul li {
+  list-style: none;
+  /* border: 1px solid; */
+  padding: 10px;
+  background: #0f0f0f;
+}

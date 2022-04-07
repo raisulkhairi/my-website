@@ -1,0 +1,32 @@
+.bg {
+  background-image: url("/assets/img/07 edit.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main {
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+img {
+    height: 200px;
+    border-radius: 10px;
+}
+.project img:hover{
+    box-shadow: 2px 2px rgb(148, 148, 148);
+    
+}
+.project{
+    margin: 30px;
+}
+span.title-project {
+    line-height: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,75 @@
+.container {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.bg {
+  background-image: url("/assets/img/04 edit.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+}
+.container-title {
+  display: flex;
+  align-items: center;
+  margin-top: 12%;
+}
+.title {
+  font-size: 115px;
+  font-weight: bold;
+  font-family: sans-serif;
+  line-height: 100px;
+  margin-left: 120px;
+  letter-spacing: 2px;
+  margin: auto 0;
+  margin-left: 94px;
+}
+.name {
+  color: #995f08;
+}
+.menu {
+  height: max-content;
+  margin-left: 5%;
+  font-size: 20px;
+  font-family: monospace;
+}
+.menu ul {
+  display: flex;
+  margin-left: -80px
+}
+.menu ul li {
+  list-style: none;
+  margin: 0 10px;
+  border: 1px solid #995f08;
+  padding: 4px;
+  border-radius: 5px;
+  width: 140px;
+  text-align: center;
+  color: #8f8f8f;
+}
+.menu ul li a:hover{
+    color: white;
+    cursor: pointer;
+}
+a {
+  color: #8f8f8f;
+  text-decoration: none;
+}
+.garis {
+  width: 290px;
+  border-bottom: 15px solid;
+  position: absolute;
+  /* height: 10px; */
+  top: 0;
+  color: #995f08;
+}
+.garis2 {
+  height: 290px;
+  border-left: 15px solid;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #995f08;
+}

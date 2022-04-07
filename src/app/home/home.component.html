@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="bg">
+    
+    <div class="container-title">
+      <div class="title" data-aos="fade-down" data-aos-duration="3000" >
+        <p>
+          <span class="hi">Hi</span><br /><span>i am</span><br /><span
+            class="name"  *ngFor="let user of getUser"
+            >{{user.firstName}}</span
+          >
+        </p>
+      </div>
+      <div class="menu" data-aos="fade-in" data-aos-duration="3000">
+        <ul>
+          <li  data-aos-duration="3000"><a routerLink="./about">About</a></li>
+          <li><a routerLink="./portfolio">Portfolio</a></li>
+          <li><a routerLink="./contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="garis" data-aos="slide-right" data-aos-duration="3000"></div>
+    <div class="garis2" data-aos="slide-up" data-aos-duration="3000"></div>
+  </div>
+</div>
